@@ -19,7 +19,8 @@
   "scripts": {
     "lint": "standard | snazzy",
     "test": "npm run lint",
-    "build": "npm run lint && babel -d lib/ middleware/"
+    "build": "npm run lint && babel -d lib/ middleware/",
+    "install": "yarn build"
   },
   "repository": {
     "type": "git",
