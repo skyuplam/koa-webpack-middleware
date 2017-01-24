@@ -20,7 +20,7 @@
     "lint": "standard | snazzy",
     "test": "npm run lint",
     "build": "npm run lint && babel -d lib/ middleware/",
-    "postinstall": "yarn build"
+    "install": "yarn build"
   },
   "repository": {
     "type": "git",
